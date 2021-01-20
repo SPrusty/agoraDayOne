@@ -37,13 +37,21 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50px;
+
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    max-width: 400px;
+    max-height: 600px;
+    box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.041);
 }
 
 .left-pane{
-    width: 20vw;
-    height: 100vh;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 500px;
+    height: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #illustration{
@@ -58,10 +66,10 @@ body{
 }
 
 #bottomText{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: white;
+    margin-bottom: 50px;
 }
-
 
 #circleContainer{
     display: flex;
@@ -75,12 +83,27 @@ body{
     margin-bottom: 50px;
 }
 
+.right-pane{
+    flex: 2;
+    text-align: left;
 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 0px;
 
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
 
+    max-width: 400px;
+    max-height: 600px;
+    box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.041);
+    
+}
 
 .loginContainer{
-    margin-top: 20vh
+    margin-top: 20vh;
+    margin-left: 2vh;
 }
 
 #headingText{
@@ -105,11 +128,13 @@ input {
 
 .submitButton {
     background-color: #099dfd;
-    margin-top: 10px;
+    margin-top: 15px;
+
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
-    padding-left:1 5px;
+    padding-left: 15px;
+
     color: white;
     border: none;
     font-size: 1.25rem;
@@ -118,10 +143,7 @@ input {
 
 
 
-#right-pane{
-    flex: 2;
-    text-align: center;
-}
+
 
 
 
